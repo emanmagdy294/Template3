@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav
+{
+    position: fixed;
+    font-size: 19px;
+    transition: 1s;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.home-color
+{
+   color:#ffb727;
+}
+.nav-hover:hover
+{
+    color:#ffb727;
+}
+
+/***background***/
+.background
+{
+    background-image: url( hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+.caption
+{
+    background-color: rgba(0, 0, 0, 0.6) ;
+    width: 100%;
+    height: 100%;
+}
+.paragraph
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*********/
+.title h2{
+    font-size: 60px;
+    font-weight: 500;
+    color:rgba(128, 128, 128, 0.3)
+}
+.title h3{
+    font-size: 40px;
+    color: #000; 
+     margin-bottom: -20px;
+
+}
+
+.info
+{
+    font-weight: bold;
+}
+.right-icon
+{
+    color: #ffb727;
+}
+.number
+{
+    font-weight: bold;
+}
+.clock-icon
+{
+    color: cornflowerblue;
+}
+.smile-icon
+{
+    color: green;
+}
+.file-icon
+{
+    color: indigo;
+}
+.trophy-icon
+{
+    color: #ffb727;
+
+}
+.progress-bar
+{
+    background-color:#ffb727 ;
+}
+.address-color
+{
+    color:#ffb727 ;
+}
+.button 
+{
+    background-color: rgb(175, 167, 167,.2);
+}
+.dripple-icon
+{
+    color:#ffb727 ;
+    font-size: 37px;
+    background-color: #fff4df;
+    border-radius: 50%;
+    padding-top: 17px;
+    display: inline-block;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+}
+.add 
+{
+    font-weight: bold;
+}
+.box
+{
+    transition: 2s;
+}
+.child:hover
+{
+    border: solid 1px  #ffb727 ;
+}
+.child:hover .add
+{
+    color: #ffb727 ;
+}
+/***************/
+
+.carousel-item{
+    background-image: url( testimonials-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.slide
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.slide-img
+{
+    border-radius: 50%;
+    width: 15%;
+    border: solid 5px rgba(128, 128, 128, 0.3);
+}
+.coma
+{
+    color: gray;
+    font-size:40px;
+    font-weight:bold;
+}
+.bt-login
+{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 8%;
+}
+.bt
+{
+    transition: 1s;
+
+}
+.bt-special
+{
+    border: solid 3px  #ffb727 ;
+    color: #ffb727 ;   
+}
+.bt-login:hover
+{
+    border: solid 3px  #ffb727 ;
+    color: #ffb727 ;   
+}
+.image-transport
+{
+    overflow: hidden;
+}
+.im
+{
+    transition: 1s;
+}
+.im:hover 
+{
+    transform: scale(1.1);
+}
+
+
+.IMAGE-HOVER
+{
+    position: relative;
+    
+overflow: hidden;
+}
+.protofolio-img
+{
+    opacity: 0;
+    transition: 1s;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.IMAGE-HOVER:hover
+{
+    overflow: hidden;
+}
+.IMAGE-HOVER:hover .protofolio-img
+{
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.8);
+    
+}
+.bg 
+{
+    background-color: rgb(179, 172, 172,.3);
+    border-radius: 6px;
+
+}
+.sign
+{
+    color: #ffb727 ;   
+   font-weight: bold;
+   font-size: 25px; 
+}
+.buy
+{
+    background-color: #ffb727 ;
+    text-align: center;
+    border: solid 0 #ffb727 ;
+    border-radius: 5px;
+    width: 50%;
+    color: white;
+    padding: 5px;
+}
+.line {
+    text-decoration: line-through;
+    color: gray;
+}
+.buisness
+{
+    background-color: #ffb727;
+    width: 100%;
+   
+}
+
+.xx
+{
+    overflow: hidden;
+    position: relative;
+
+}
+
+.advanced
+{
+    width: 150px;
+    position: absolute;
+    padding: 15px;
+    top:0px;
+    right:-40px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    background: #ffb727;
+    color: #fff;
+}
+.social-icon 
+{
+    font-size: 18px;
+    display: inline-block;
+    color: #687683;
+    line-height: 1;
+    margin: 0 8px;
+    transition: 0.3s;
+    padding: 14px;
+    border-radius: 50px;
+    border: 1px solid #dde1e4;
+}
+.social-icon:hover
+{
+    background-color: #ffb727;
+    color: white;
+}
+.send
+{
+    background-color: #ffb727;
+    color: white;
+     border: none;
+     padding: 10px;
+     border-radius: 5px;
+}
+
+.dripp-icon
+{font-size: 24px;
+    color: #ffb727;
+    border-radius: 50%;
+    padding: 15px;
+    background: #fff6e4;
+}
+.footer-bg
+{
+    background-image: url(footer-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+.ico
+{
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    line-height: 1;
+    margin: 0 8px;
+    transition: 0.3s;
+    padding: 14px;
+    border-radius: 50px;
+    border: 1px solid #dde1e4;
+    background-color: #ffb727;
+    margin-top: 30px;
+}
+.fix
+{
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    top: 550px;
+    right: 0;
+    background-color: #ffb727;
+   
+}
+.fix:hover
+{
+    background-color: #fccd70;
+
+}
+.foote-bg
+{
+    background-color: rgba(0, 0, 0, 0.6) ;
+    width: 100%;
+    height: 100%;
+}
+.bootstrab
+{
+    color:#fccd70;
+}
+ .chevron{
+  
+    position: relative;
+    animation-name: changecolor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes changecolor
+{
+    0%{ top: 0px; }
+    50%{ top: 1px;}
+    100%{ top :10px}
+}   
+
+
+
+.h-after
+{
+    position: relative;
+}
+.h-after::before
+{
+    content: " ";
+    background-color:gray;
+    position: absolute;
+    left: -35px;
+    width: 2px;
+    height: 700px;
+    
+}
+.h-circle
+{
+    position: relative;
+}
+.h-circle::after
+{
+    content: " ";
+    background-color:white;
+    border: solid 2px gray;
+    position: absolute;
+    left: -43px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
